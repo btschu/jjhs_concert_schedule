@@ -856,6 +856,7 @@ h6 {
 }
 
 #schedule .nav-tabs a {
+  border: none;
   border-radius: 10px;
   font-weight: 600;
   background-color: black;
