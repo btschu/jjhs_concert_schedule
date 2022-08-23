@@ -856,12 +856,13 @@ h6 {
 }
 
 #schedule .nav-tabs a {
-  border: 2px solid #fff;
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 600;
   background-color: black;
   color: #fff;
-  padding: 10px 100px;
+  padding: 10px;
+  width: 160px;
+  margin-right: 10px;
 }
 
 @media (max-width: 991px) {
