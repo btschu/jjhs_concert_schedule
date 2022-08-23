@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: linear-gradient(180deg, #f01e25, black);
+  /* background: linear-gradient(180deg, #f01e25, black); */
   color: #fff;
   font-family: "Open Sans", sans-serif;
   height: 100vh;
@@ -52,7 +52,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #fff;
+  color: black;
 }
 
 .main-page {
@@ -847,7 +847,7 @@ h6 {
   margin: auto;
   display: block;
   border-bottom: 0;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 #schedule .nav-tabs li {
@@ -858,12 +858,12 @@ h6 {
 #schedule .nav-tabs a {
   border: none;
   border-radius: 10px;
-  font-weight: 600;
+  /* font-weight: 600; */
   background-color: black;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
   width: 160px;
-  margin-right: 10px;
+  margin: 0 10px 10px 0;
 }
 
 @media (max-width: 991px) {
@@ -914,31 +914,31 @@ h6 {
   transition: background-color ease-in-out 0.3s;
 }
 
-#schedule .schedule-item:hover {
-  background-color: rgb(71, 69, 69);
-}
+/* #schedule .schedule-item:hover {
+  background-color: rgb(176, 173, 173);
+} */
 
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
-#schedule .schedule-item .speaker {
+/* #schedule .schedule-item .speaker {
   width: 60px;
   height: 60px;
   overflow: hidden;
   border-radius: 50%;
   float: left;
   margin: 0 10px 10px 0;
-}
+} */
 
-#schedule .schedule-item .speaker img {
+/* #schedule .schedule-item .speaker img {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
   transition: all ease-in-out 0.3s;
-}
+} */
 
 #schedule .schedule-item h4 {
   font-size: 18px;
@@ -955,7 +955,7 @@ h6 {
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #fff;
+  color: black;
   margin-bottom: 0;
 }
 
