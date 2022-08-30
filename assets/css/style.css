@@ -188,12 +188,12 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 70px;
   }
 }
 
@@ -261,7 +261,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(202, 206, 221, 0.8);
+  color: black;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -301,7 +301,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #f01e25;
 }
 
 .navbar .dropdown ul {
@@ -373,7 +373,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(93, 90, 90);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -840,6 +840,8 @@ h6 {
 --------------------------------------------------------------*/
 #schedule {
   padding: 30px 0 0 0;
+  margin-top: 75px;
+  width: 92%;
 }
 
 #schedule .nav-tabs {
@@ -847,7 +849,7 @@ h6 {
   margin: auto;
   display: block;
   border-bottom: 0;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 #schedule .nav-tabs li {
@@ -858,29 +860,29 @@ h6 {
 #schedule .nav-tabs a {
   border: none;
   border-radius: 10px;
-  /* font-weight: 600; */
+  font-weight: 600;
   background-color: black;
   color: #fff;
   padding: 5px;
-  width: 160px;
+  width: 100px;
   margin: 0 10px 10px 0;
 }
 
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
-    padding: 8px 60px;
+    padding: 8px;
   }
 }
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
-    padding: 8px 50px;
+    padding: 8px;
   }
 }
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px;
   }
 }
 
